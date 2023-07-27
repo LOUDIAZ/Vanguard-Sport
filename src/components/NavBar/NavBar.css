@@ -1,6 +1,6 @@
 .navbar{
     width: 100%;
-    background-color: #A330E1;
+    background:linear-gradient(255deg, rgba(225,48,185,1) 0%, rgba(163,48,225,1)50%);
     display: flex;
     justify-content: center;
 }

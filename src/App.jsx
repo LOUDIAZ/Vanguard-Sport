@@ -2,6 +2,7 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function App() {
         <NavBar/>
       </div>
       <div>
-        <h1>Bienvenidos</h1>
+        <ItemListContainer greeting={"Bienvenidos"}/>
       </div>
       
     </>
